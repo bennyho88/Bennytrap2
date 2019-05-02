@@ -3,6 +3,11 @@
     grid-template-columns: 250px 250px 250px 250px;
 }
 
+.container {
+    margin: 0 auto;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .col {
     background-color: yellow;
     margin: 30px;
@@ -39,3 +44,15 @@
 .line {
     border: solid peru 2px;
 }
+
+.text-center {
+    text-align: center;
+}
+
+.form-group {
+    background-color;
+    margin: 10px;
+}
+
+
+
