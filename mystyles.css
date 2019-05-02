@@ -1,0 +1,41 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+}
+
+.col {
+    background-color: yellow;
+    margin: 30px;
+    
+}
+
+.align-items-center {
+    justify-content: center;
+}
+
+.btn {
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 8px;
+    /* align-items: center; */
+
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-red {
+    background-color: red;
+}
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.line {
+    border: solid peru 2px;
+}
