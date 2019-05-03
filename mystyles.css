@@ -13,7 +13,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 .col {
-    
+    border-radius: 10%;
     margin: 30px;
     
 }
@@ -105,7 +105,6 @@ a {
 }
 
 .list-group-item {
-    border: solid grey 2px;
     font-size: 16px;
     opacity: 0.9;
     transition: 0.3s;
@@ -117,4 +116,33 @@ a {
 
 .list-group-item:hover {
     opacity: 1;
+}
+
+.shadow {
+    box-shadow: 0 0 15px rgba(0,0,0,.25);
+
+}
+
+.display-3 {
+    font-size: 40px;
+}
+
+table {
+    padding: 5px;
+    margin: 10px;
+    border-collapse: collapse
+    
+}
+
+.table-content {
+    padding: 10px;
+    text-align: center;
+}
+
+.table-border {
+    border: solid red 2px;
+}
+
+.t-row:hover {
+    background-color: olivedrab;
 }
