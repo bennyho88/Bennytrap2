@@ -146,3 +146,27 @@ table {
 .t-row:hover {
     background-color: olivedrab;
 }
+
+.grid-container-two {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    
+    
+    
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+.justify-content-center {
+    justify-content: center;
+}
+
+.grid-item {
+    background-color: lightgrey;
+    padding: 1em;
+}
