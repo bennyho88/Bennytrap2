@@ -60,10 +60,16 @@ body {
 }
 
 .form-group {
-    background-color;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin: 10px;
+    justify-content: center;
 }
 
+.checkbox {
+    position: relative;
+    left: 150px;
+}
 .nav-item {
     display: inline;
     padding: 10px;
